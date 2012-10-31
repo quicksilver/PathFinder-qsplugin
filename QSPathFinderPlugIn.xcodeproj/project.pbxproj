@@ -8,28 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		7F35FF9D07F9ADAA0056051D /* QSPathFinderProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F35FF9C07F9ADAA0056051D /* QSPathFinderProxy.m */; };
-		7F699EC0096EFBBE00420E96 /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F699EBE096EFBBE00420E96 /* QSCore.framework */; };
-		7F699EC1096EFBBF00420E96 /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F699EBF096EFBBE00420E96 /* QSFoundation.framework */; };
 		8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD92D38A0106425D02CA0E72 /* Cocoa.framework */; };
+		D4CDD1471641A2400001207C /* QSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CDD1461641A23D0001207C /* QSCore.framework */; };
+		D4CDD1481641A24D0001207C /* QSFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D48C1D001641A1FC00EDFED8 /* QSFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		14DE922910D0CE1E00851A6F /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
-		14DE922A10D0CE1E00851A6F /* Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
-		14DE922B10D0CE1E00851A6F /* Developer.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
-		14DE922C10D0CE1E00851A6F /* QSPlugIn_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Debug.xcconfig; sourceTree = "<group>"; };
-		14DE922D10D0CE1E00851A6F /* QSPlugIn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPlugIn_Prefix.pch; sourceTree = "<group>"; };
-		14DE922E10D0CE1E00851A6F /* QSPlugIn_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn_Release.xcconfig; sourceTree = "<group>"; };
-		14DE922F10D0CE1E00851A6F /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
-		14DE923010D0CE1E00851A6F /* Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
-		32DBCF980370C29C00C91783 /* QSPathFinderPlugIn_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QSPathFinderPlugIn_Prefix.pch; sourceTree = "<group>"; };
 		7F35FF9B07F9ADAA0056051D /* QSPathFinderProxy.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSPathFinderProxy.h; sourceTree = "<group>"; };
 		7F35FF9C07F9ADAA0056051D /* QSPathFinderProxy.m */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.objc; path = QSPathFinderProxy.m; sourceTree = "<group>"; };
-		7F699EB3096EFB1D00420E96 /* QSFSBrowserMediator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; name = QSFSBrowserMediator.h; path = "PlugIns-Main/QSCorePlugIn/Code/QSFSBrowserMediator.h"; sourceTree = QS_SOURCE_ROOT; };
-		7F699EBE096EFBBE00420E96 /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = QSFrameworks; };
-		7F699EBF096EFBBE00420E96 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = QSFrameworks; };
+		7F699EB3096EFB1D00420E96 /* QSFSBrowserMediator.h */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = sourcecode.c.h; path = QSFSBrowserMediator.h; sourceTree = SOURCE_ROOT; };
 		8D1AC9730486D14A00FE50C9 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
-		8D1AC9740486D14A00FE50C9 /* Path Finder Module.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Path Finder Module.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D1AC9740486D14A00FE50C9 /* Path Finder Plugin.qsplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Path Finder Plugin.qsplugin"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D48C1CFA1641A07400EDFED8 /* Common.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		D48C1CFB1641A07400EDFED8 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
+		D48C1CFC1641A07400EDFED8 /* Developer.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Developer.xcconfig; sourceTree = "<group>"; };
+		D48C1CFD1641A07400EDFED8 /* QSPlugIn.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = QSPlugIn.xcconfig; sourceTree = "<group>"; };
+		D48C1CFE1641A07400EDFED8 /* Quicksilver.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Quicksilver.pch; sourceTree = "<group>"; };
+		D48C1CFF1641A07400EDFED8 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
+		D48C1D001641A1FC00EDFED8 /* QSFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D4CDD1461641A23D0001207C /* QSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QSCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD92D38A0106425D02CA0E72 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
@@ -39,8 +36,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D1AC9700486D14A00FE50C9 /* Cocoa.framework in Frameworks */,
-				7F699EC0096EFBBE00420E96 /* QSCore.framework in Frameworks */,
-				7F699EC1096EFBBF00420E96 /* QSFoundation.framework in Frameworks */,
+				D4CDD1471641A2400001207C /* QSCore.framework in Frameworks */,
+				D4CDD1481641A24D0001207C /* QSFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +47,7 @@
 		0259C574FE90428111CA0C5A /* QSPathFinderPlugIn */ = {
 			isa = PBXGroup;
 			children = (
-				14DE922610D0CE0300851A6F /* Configuration */,
+				D48C1CF91641A07400EDFED8 /* Configuration */,
 				32DBCF9E0370C38000C91783 /* Classes */,
 				32DBCF9F0370C38200C91783 /* Other Sources */,
 				0259C582FE90428111CA0C5A /* Resources */,
@@ -68,25 +65,10 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		14DE922610D0CE0300851A6F /* Configuration */ = {
-			isa = PBXGroup;
-			children = (
-				14DE922910D0CE1E00851A6F /* Common.xcconfig */,
-				14DE922A10D0CE1E00851A6F /* Debug.xcconfig */,
-				14DE922B10D0CE1E00851A6F /* Developer.xcconfig */,
-				14DE922C10D0CE1E00851A6F /* QSPlugIn_Debug.xcconfig */,
-				14DE922D10D0CE1E00851A6F /* QSPlugIn_Prefix.pch */,
-				14DE922E10D0CE1E00851A6F /* QSPlugIn_Release.xcconfig */,
-				14DE922F10D0CE1E00851A6F /* QSPlugIn.xcconfig */,
-				14DE923010D0CE1E00851A6F /* Release.xcconfig */,
-			);
-			path = Configuration;
-			sourceTree = QS_SOURCE_ROOT;
-		};
 		1ED78706FE9D4A0611CA0C5A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8D1AC9740486D14A00FE50C9 /* Path Finder Module.qsplugin */,
+				8D1AC9740486D14A00FE50C9 /* Path Finder Plugin.qsplugin */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,8 +76,8 @@
 		2E58F364FFB232C311CA0CBA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7F699EBE096EFBBE00420E96 /* QSCore.framework */,
-				7F699EBF096EFBBE00420E96 /* QSFoundation.framework */,
+				D4CDD1461641A23D0001207C /* QSCore.framework */,
+				D48C1D001641A1FC00EDFED8 /* QSFoundation.framework */,
 				DD92D38A0106425D02CA0E72 /* Cocoa.framework */,
 			);
 			name = Frameworks;
@@ -114,31 +96,44 @@
 			isa = PBXGroup;
 			children = (
 				7F699EB3096EFB1D00420E96 /* QSFSBrowserMediator.h */,
-				32DBCF980370C29C00C91783 /* QSPathFinderPlugIn_Prefix.pch */,
 			);
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
+		D48C1CF91641A07400EDFED8 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				D48C1CFA1641A07400EDFED8 /* Common.xcconfig */,
+				D48C1CFB1641A07400EDFED8 /* Debug.xcconfig */,
+				D48C1CFC1641A07400EDFED8 /* Developer.xcconfig */,
+				D48C1CFD1641A07400EDFED8 /* QSPlugIn.xcconfig */,
+				D48C1CFE1641A07400EDFED8 /* Quicksilver.pch */,
+				D48C1CFF1641A07400EDFED8 /* Release.xcconfig */,
+			);
+			name = Configuration;
+			path = /private/tmp/QS/Configuration;
+			sourceTree = "<absolute>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8D1AC9600486D14A00FE50C9 /* Path Finder Module */ = {
+		8D1AC9600486D14A00FE50C9 /* Path Finder Plugin */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FFF24D1085E488600266176 /* Build configuration list for PBXNativeTarget "Path Finder Module" */;
+			buildConfigurationList = 7FFF24D1085E488600266176 /* Build configuration list for PBXNativeTarget "Path Finder Plugin" */;
 			buildPhases = (
+				E1022B2806B3475D00299BEC /* Update Version and Documentation */,
 				8D1AC9660486D14A00FE50C9 /* Resources */,
 				8D1AC96A0486D14A00FE50C9 /* Sources */,
 				8D1AC96E0486D14A00FE50C9 /* Frameworks */,
-				E1022B2806B3475D00299BEC /* ShellScript */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Path Finder Module";
+			name = "Path Finder Plugin";
 			productInstallPath = "$(HOME)/Developer/Palettes";
 			productName = QSPathFinderPlugIn;
-			productReference = 8D1AC9740486D14A00FE50C9 /* Path Finder Module.qsplugin */;
+			productReference = 8D1AC9740486D14A00FE50C9 /* Path Finder Plugin.qsplugin */;
 			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
@@ -148,12 +143,16 @@
 			isa = PBXProject;
 			buildConfigurationList = 7FFF24D5085E488600266176 /* Build configuration list for PBXProject "QSPathFinderPlugIn" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 0259C574FE90428111CA0C5A /* QSPathFinderPlugIn */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8D1AC9600486D14A00FE50C9 /* Path Finder Module */,
+				8D1AC9600486D14A00FE50C9 /* Path Finder Plugin */,
 			);
 		};
 /* End PBXProject section */
@@ -169,18 +168,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		E1022B2806B3475D00299BEC /* ShellScript */ = {
+		E1022B2806B3475D00299BEC /* Update Version and Documentation */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 8;
 			files = (
 			);
 			inputPaths = (
 			);
+			name = "Update Version and Documentation";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "$SRCROOT/bltrversion $INFOPLIST_FILE";
+			shellScript = "\"$QS_BUILD_ROOT/Tools/bltrversion\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -198,34 +198,42 @@
 /* Begin XCBuildConfiguration section */
 		7FFF24D2085E488600266176 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE922C10D0CE1E00851A6F /* QSPlugIn_Debug.xcconfig */;
+			baseConfigurationReference = D48C1CFD1641A07400EDFED8 /* QSPlugIn.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/QS/build/Release,
+				);
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "Path Finder Module";
+				PRODUCT_NAME = "Path Finder Plugin";
 				ZERO_LINK = YES;
 			};
 			name = Debug;
 		};
 		7FFF24D3085E488600266176 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE922E10D0CE1E00851A6F /* QSPlugIn_Release.xcconfig */;
+			baseConfigurationReference = D48C1CFD1641A07400EDFED8 /* QSPlugIn.xcconfig */;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/tmp/QS/build/Release,
+				);
 				OTHER_LDFLAGS = "-bundle";
-				PRODUCT_NAME = "Path Finder Module";
+				PRODUCT_NAME = "Path Finder Plugin";
 				ZERO_LINK = NO;
 			};
 			name = Release;
 		};
 		7FFF24D6085E488600266176 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE922A10D0CE1E00851A6F /* Debug.xcconfig */;
+			baseConfigurationReference = D48C1CFB1641A07400EDFED8 /* Debug.xcconfig */;
 			buildSettings = {
 			};
 			name = Debug;
 		};
 		7FFF24D7085E488600266176 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 14DE923010D0CE1E00851A6F /* Release.xcconfig */;
+			baseConfigurationReference = D48C1CFF1641A07400EDFED8 /* Release.xcconfig */;
 			buildSettings = {
 			};
 			name = Release;
@@ -233,7 +241,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FFF24D1085E488600266176 /* Build configuration list for PBXNativeTarget "Path Finder Module" */ = {
+		7FFF24D1085E488600266176 /* Build configuration list for PBXNativeTarget "Path Finder Plugin" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7FFF24D2085E488600266176 /* Debug */,
